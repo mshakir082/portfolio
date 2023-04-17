@@ -12,7 +12,11 @@ export default class Header extends Component {
             <ul id="nav" className="nav">
                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                <li><a className="smoothscroll" href="#about">About</a></li>
-             <li><a className="smoothscroll" href="#resume">Resume</a></li>
+             {/* <li><a className="smoothscroll" href="#resume">Resume</a></li> */}
+             <li><a className="smoothscroll" href="https://docs.google.com/document/d/1_O5-Rb9EZElQN7EMh7R3XcRHO7ScA1Ae/edit">Resume</a></li>
+             <li> <a className="smoothscroll" rel="noopener noreferrer" href="https://docs.google.com/document/d/1_O5-Rb9EZElQN7EMh7R3XcRHO7ScA1Ae/edit" target="_blank">
+             Resume
+                </a></li>
                <li><a className="smoothscroll" href="#portfolio">Project</a></li>
                {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
